@@ -1,0 +1,94 @@
+/* ACCUEIL CSS */
+.logopage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#img{
+    width: 50%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display:flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+}
+
+.header-logo {
+    height: 100px;
+}
+
+header{
+    background-color: #8ecbdd ;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100px;
+    gap: 7%;
+    width: 100%; 
+    margin: 0 auto;
+    border-bottom: #7252f1 solid;
+}
+
+.header-nav__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.header-nav__item {
+    margin-right: 24px;
+}
+
+.header-nav__link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+.header-nav__link:hover{
+    color:#7252f1;
+    transition: color 0.5s;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item p {
+    flex: 1;
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    
+}
