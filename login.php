@@ -93,10 +93,6 @@
                 <input type="text" id="username" name="username" required>
             </div>
             <div class="form-group">
-                <label for="role">Fonction (parent,famille,professionnel de santé...)</label>
-                <input type="role" id="role" name="role" required>
-            </div>
-            <div class="form-group">
                 <label for="password">Mot de passe</label>
                 <input type="password" id="password" name="password" required>
             </div>
